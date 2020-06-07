@@ -23,12 +23,53 @@
 						<a href="#"> Register</a>
 					</div>
 					<div class="cart-btn">
-						<a href="#"><img src="img/cart.png"> <span>cart(0)</span></a>
+						<img src="img/cart.png"> <span>cart(0)</span>
 					</div>
 				</div>
 			</div>
 		</div>
 
-	</div>
+		<div class="header">
+			<div class="container-sub">
+				<div class="logo">
+					<img src="img/icon.png">
+				</div>
+				<div class="navbar">
+					<a href="">home</a>
+					<a href="">new arrivals</a>
+					<a href="">latest</a>
+					<a href="">about us</a>
+				</div>
+			</div>
+		</div>
+		<!--Header end-->
+
+
+
+<br>
+
+		<div class="slider">
+			<div class="container-sub">
+				<div class="slideshow">
+					<img src="img/img.jpg">
+					<img src="img/img1.jpg">
+					<img src="img/img2.jpg">
+				</div>	
+				<div class="center">
+					<a href="#" id="next"><img src="img/next.png"></a>
+					<a href="#" id="prev"><img src="img/previous.png"></a>
+				</div>
+			</div>		
+		</div>
+
+	</div><!--main-->
+	<script type="" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="" src="js/jquery.cycle.all.js"></script>
+	<script>
+		$('.slideshow').cycle({
+			next:'#next',
+			prev:'#prev'
+		});
+	</script>
 </body>
 </html>
