@@ -9,7 +9,7 @@ body{
 .main{
 	width: 100%;
 	height: auto;
-	min-height: 1000px;
+	min-height: 2000px;
 	margin: 0 auto;
 }
 .container{
@@ -128,18 +128,60 @@ body{
 /**Slider style**/
 .slideshow{
 	width: 1000px;
-	height: 300px;
+	height: 350px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 150px;
+	margin-right: 150px;
+
+
 }
 .slideshow img{
-	width: 100%;
-	height: auto;
+	width: 90%;
+	height: 350px;
 	align-items: center;
-	padding-left: 150px;
-	padding-right: 150px;
+	border:7px solid rgb(150,50,0,0.5);
+
+
 }
 .slider{
 	width: 100%;
-	height: 300px;
+	height: auto;
 	float:left;
 	align-items: center;
+}
+.center{
+	position: relative;
+	left: 0;
+	top: 0;
+	margin-top: -250px;
+	z-index: 5;
+}
+.center #next{
+	float: right;
+}
+.center #next, .center #prev{
+
+	text-decoration: none;
+	text-align: center;
+	line-height:85px;
+}
+.center img:hover{
+	transform: scale(1.2);
+	opacity: 0.5;
+}
+.welcome-text{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 150px;
+	text-align: center;
+}
+.welcome-text h1{
+	text-transform: uppercase;
+	color: #fff;
+}
+.welcome-text h1 span{
+	color: rgb(150,50,0);
+	font-size: 2em;
 }
