@@ -9,7 +9,7 @@ body{
 .main{
 	width: 100%;
 	height: auto;
-	min-height: 2000px;
+	min-height: 3500px;
 	margin: 0 auto;
 }
 .container{
@@ -234,6 +234,8 @@ body{
 
 .product-l1{
 	padding: 40px;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
 }
 .product{
 	width: 100%;
@@ -242,6 +244,7 @@ body{
 }
 .product-section-title{
 	text-align: center;
+	align-items: center;
 	float: left;
 	width: 100%;
 	display: inline-block;
@@ -257,6 +260,7 @@ body{
 	padding-left: 20px;
 	float: left;
 	padding-bottom: 10px;
+	margin-bottom: 20px;
 }
 .product-img{
 	width: 280px;
@@ -334,4 +338,39 @@ body{
  }
  .button:hover{
  	transform: scale(1.05);
+ }
+ .product-one .product-img {
+ 	position: relative;
+ }
+ .product-one .product-img span{
+ 	position: absolute;
+ 	left: 15px;
+ 	top: 15px;
+ 	background-color: rgb(250,250,0,0.8);
+ 	color: rgb(150,50,0);
+ 	font-weight: bold;
+ 	text-align: center;
+ 	padding: 10px;
+ 	width: 50px;
+ 	height: 50px;
+ 	line-height: 50px;
+ 	z-index: 4;
+ 	border-radius: 40px;
+ 	font-size: 14px;
+ }
+ .brand{
+ 	width: 100%;
+ 	float: left;
+ 	margin-top: 50px;
+ 	height: auto;
+ }
+ .brand-img{
+ 	align-items: center;
+ 	margin-left: 200px;
+ }
+ .brand-img img{
+ 	width: 160px;
+ 	height: 130px;
+ 	float: left;
+ 	margin-right: 20px;
  }
