@@ -154,34 +154,152 @@ body{
 	position: relative;
 	left: 0;
 	top: 0;
-	margin-top: -250px;
+	margin-top: -200px;
 	z-index: 5;
+}
+.center img{
+	width:50px;
+	height: 50px;
 }
 .center #next{
 	float: right;
+	margin-right: 100px;
+}
+.center #prev{
+	margin-left: 100px;
 }
 .center #next, .center #prev{
 
 	text-decoration: none;
 	text-align: center;
 	line-height:85px;
+	opacity: 0.5;	
 }
-.center img:hover{
-	transform: scale(1.2);
-	opacity: 0.5;
+.center #next:hover, .center #prev:hover{
+	opacity: 1;
+	
 }
 .welcome-text{
 	width: 100%;
 	height: auto;
 	float: left;
-	margin-top: 150px;
+	margin-top: 170px;
 	text-align: center;
 }
 .welcome-text h1{
 	text-transform: uppercase;
 	color: #fff;
+	font-weight: normal;
 }
 .welcome-text h1 span{
 	color: rgb(150,50,0);
 	font-size: 2em;
+	background-color: #fff;
+	border-radius:5px;
+	font-weight: bold;
 }
+.event-section{
+	width: 100%
+	height:auto;
+	float: left;
+	margin-top: 50px;
+	padding-left: 170px;
+	padding-right: 100px;
+	display: inline-block;
+	align-items: center;
+}
+.event-section .event-one, .event-section .event-two, .event-section .event-three{
+	width: 300px;
+	height: auto;
+	padding: 15px 10px;
+	background-color: #fff;
+	border-radius: 7px;
+	text-align: center;
+	float: left;
+	padding-right: 5px;
+	margin-right: 10px;
+
+}
+.event-section  h3{
+	font-size: 16px;
+	margin-bottom: 7px;
+}
+.event-section  p{
+	font-size: 14px;
+}
+.event-section .event-two{
+	background-color: rgb(150,50,0,0.5);
+	color:#fff;
+}
+
+
+.product{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.product-section-title{
+	text-align: center;
+	float: left;
+	width: 100%;
+	display: inline-block;
+	margin-top: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.product-one{
+	width: 280px;
+	height: auto;
+	padding-left: 50px;
+	float: left;
+}
+.product-img{
+	width: 280px;
+	border: 1px solid rgb(150,50,0,0.5);
+	border-radius: 7px;
+	overflow: hidden;
+	float: left;
+	background-color: rgb(150,50,0,0.5);
+}
+.product-img img{
+	width: 280px;
+	height:350px;
+}
+.product-text{
+	width:280px;
+	margin-top: 10px;
+	float: left;
+	color: #fff;
+}
+.product-text h4 i{
+	font-weight: normal;
+	margin-left: 10px;
+}
+.star-rating{
+	width: 280px;
+	float: left;
+	margin-top: 10px;
+}
+ .star-rating img{
+ 	width: 21px;
+ 	height:21px;
+ 	float: left;
+ 	margin-right: 5px;
+ }
+ .product-desc{
+ 	width: 280px;
+ 	float: left;
+ 	font-size: 14px;
+ 	margin-top: 5px;
+ }
+ .product-price{
+ 	width: 280px;
+ 	float: left;
+ 	margin-top: 10px;
+ }
+ .price{
+ 	font-weight: bold;
+ 	font-size: 22px;
+ }
