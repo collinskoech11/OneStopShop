@@ -103,7 +103,7 @@ body{
 	float: left;
 }
 .navbar{
-	width: 800px;
+	width: 80%;
 	float: left;
 	text-align: right;
 	padding-top: 40px;
@@ -232,7 +232,9 @@ body{
 	color:#fff;
 }
 
-
+.product-l1{
+	padding: 40px;
+}
 .product{
 	width: 100%;
 	height: auto;
@@ -252,12 +254,14 @@ body{
 .product-one{
 	width: 280px;
 	height: auto;
-	padding-left: 50px;
+	padding-left: 20px;
 	float: left;
+	padding-bottom: 10px;
 }
 .product-img{
 	width: 280px;
 	border: 1px solid rgb(150,50,0,0.5);
+	border-bottom: 2px solid darkgray;
 	border-radius: 7px;
 	overflow: hidden;
 	float: left;
@@ -272,6 +276,7 @@ body{
 	margin-top: 10px;
 	float: left;
 	color: #fff;
+	text-align: center;
 }
 .product-text h4 i{
 	font-weight: normal;
@@ -281,6 +286,7 @@ body{
 	width: 280px;
 	float: left;
 	margin-top: 10px;
+	padding-left: 10px;
 }
  .star-rating img{
  	width: 21px;
@@ -293,13 +299,39 @@ body{
  	float: left;
  	font-size: 14px;
  	margin-top: 5px;
+ 	color: #fff;
+ 	padding-left: 10px;
  }
  .product-price{
  	width: 280px;
  	float: left;
  	margin-top: 10px;
+
  }
  .price{
  	font-weight: bold;
  	font-size: 22px;
+ 	float: left;
+ 	color: #fff;
+ 	padding-left: 10px;
+ }
+ .button{
+ 	background-color: #fff;
+ 	border: 1px solid #fff;
+ 	border-radius: 5px;
+ 	width:100px;
+ 	float:right;
+ 	color: rgb(150,50,0);
+ 	font-size: 14px;
+ 	font-weight: bold;
+ 	margin-right: 5px;
+ 	padding: 10px;
+ 	margin-bottom: 5px;
+ }
+ .button a{
+ 	color:  rgb(150,50,0);
+ 	text-decoration: none;
+ }
+ .button:hover{
+ 	transform: scale(1.05);
  }
