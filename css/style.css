@@ -386,7 +386,10 @@ body{
 .col3{
 	width: 25%;
 	float: left;
-	margin-left: 300px;
+	margin-left: 30px;
+}
+.footer img:hover{
+	transform: scale(1.5);
 }
 .footer h4{
 	margin-bottom: 2px;
@@ -401,4 +404,7 @@ body{
 .footer img{
 	width: 25px;
 	height: 25px;
+}
+.footer .container-sub{
+	margin-left: 250px;
 }
