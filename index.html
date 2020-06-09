@@ -676,6 +676,32 @@
 			
 
 	</div><!--main-->
+	<div class="scrollTop">
+		Top
+	</div>
+	
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script>
+
+		$(document).ready(function(){
+
+			$(window).scroll(function(){
+				if($(window).scrollToTop() > 300) {
+					$(".scrollTop").fadeIn();
+				} else {
+					$(".scrollTop").fadeOut();
+				}
+			});
+
+
+			$(".scrollTop").click(function(){
+				$("html, body").animate({
+					scrollTop: 0
+				}, 1000);
+			});
+		});
+
+	</script>
 	<script type="" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script type="" src="js/jquery.cycle.all.js"></script>
 	<script>
@@ -684,5 +710,6 @@
 			prev:'#prev'
 		});
 	</script>
+	
 </body>
 </html>
