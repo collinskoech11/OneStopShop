@@ -374,3 +374,31 @@ body{
  	float: left;
  	margin-right: 20px;
  }
+ .footer{
+ 	width: 100%;
+ 	height: auto;
+ 	float: left;
+ 	margin-top: 50px;
+ 	padding: 25px 0;
+ 	background-color: rgb(150,50,0,0.5);
+ 	color: #fff;
+ }
+.col3{
+	width: 25%;
+	float: left;
+	margin-left: 300px;
+}
+.footer h4{
+	margin-bottom: 2px;
+	color: #fff;
+	margin-top: 10px;
+}
+
+.footer p{
+	font-size: 14px;
+	color: #fff;
+}
+.footer img{
+	width: 25px;
+	height: 25px;
+}
