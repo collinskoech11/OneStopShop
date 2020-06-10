@@ -408,12 +408,16 @@ body{
 .footer .container-sub{
 	margin-left: 250px;
 }
-.scrollTop{
+#btnScrollToTop{
+	color: #fff;
 	position: fixed;
-	bottom: 15px;
-	right: 15px;
-	background-color:#fff;
-	color: #000;
-	padding: 10px;
+	right: 10px;
+	bottom: 10px;
+	width: 50px;
+	border-radius: 50px;
+	background-color: rgb(150,50,0,0.5);
 	cursor: pointer;
+}
+#btnScrollToTop:active{
+	
 }

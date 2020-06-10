@@ -6,6 +6,7 @@
 	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="icon"  href="img/icon.png">
+	<link rel="stylesheet"  href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
 	<div class="main">
@@ -676,32 +677,28 @@
 			
 
 	</div><!--main-->
-	<div class="scrollTop">
-		Top
-	</div>
+	<button id="btnScrollToTop">
+		<i class="material-icons">arrow_upward</i>
+	</button>
 	
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-	<script>
+		<script>
 
-		$(document).ready(function(){
+			const btnScrollToTop = document.querySelector("#btnScrollToTop");
 
-			$(window).scroll(function(){
-				if($(window).scrollToTop() > 300) {
-					$(".scrollTop").fadeIn();
-				} else {
-					$(".scrollTop").fadeOut();
-				}
+			btnScrollToTop.addEventListener("click",function() {
+				//window.scrollTo(0,0);
+
+
+				//window.scrollTo({
+				//	top: 0,
+				//	left: 0,
+				//	behavior: "smooth"
+				//});
+
+				$("html, body").animate({ scrollTop: 0},"slow");
 			});
-
-
-			$(".scrollTop").click(function(){
-				$("html, body").animate({
-					scrollTop: 0
-				}, 1000);
-			});
-		});
-
-	</script>
+		</script>
 	<script type="" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script type="" src="js/jquery.cycle.all.js"></script>
 	<script>
